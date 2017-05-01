@@ -1,7 +1,7 @@
 = About User Authorization with External Identity
 :keywords: anypoint platform, permissions, configuring, pingfederate, saml
 
-As the Anypoint Platform administrator, set up users for single sign-on (SSO) by configuring an external identity user management process. Users can then log in using a single ID and password to Anypoint Platform and other software systems you include in the SSO group. Using out-of-the-box asset management capabilities in Anypoint Platform, you can set up users, roles, and permissions to resources, but SSO is not included. To provide SSO to users, you need to adopt one of the following authorization technologies:
+As the Anypoint Platform administrator, you set up users for single sign-on (SSO) by configuring an external identity user management process. Users can then log in using a single ID and password to Anypoint Platform and other software systems you include in the SSO group. Using out-of-the-box asset management capabilities in Anypoint Platform, you can set up users, roles, and permissions to resources, but SSO is not included. To provide SSO to users, you need to adopt one of the following federated identity providers (IdPs):
 
 * SAML 2.0
 +
@@ -15,7 +15,7 @@ End-User identity verification by an authorization server including SSO
 +
 A protocol for locating users and other resources on the internet or an intranet
 
-The external identity user management technology you choose affects the entire organization and all business groups. The capability to set up a user authorization system might not be available to you, depending on the entitlements you purchased.
+The IdP you choose is effective for the entire organization and all business groups. The capability to set up a user authorization system might not be available to you, depending on the entitlements you purchased.
 
 == See Also
 
